@@ -1,0 +1,29 @@
+{
+  "name": "tickit_notification",
+  "version": "1.0.0",
+  "description": "Tickit notification microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "tickit",
+    "notification"
+  ],
+  "author": "Nguyen Ba Truong",
+  "license": "ISC",
+  "dependencies": {
+    "array-shuffle": "^1.0.1",
+    "dotenv": "^5.0.0",
+    "nodemailer": "^4.4.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "twig": "^1.10.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}

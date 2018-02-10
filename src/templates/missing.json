@@ -1,0 +1,4 @@
+{
+  "subject": "[{{projectName}}] Reminding on missing registration of {{fullName}} on {{date}}",
+  "body": "Hi {{firstName}}, \n\nYou were missing a registration on {{date}}. Let's fill in by vistiting {{link}}. \n\n{{lastMessage}} \n\nBests!"
+}
