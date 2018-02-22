@@ -7,7 +7,9 @@
     "dev": "babel-node src/index.js",
     "start": "node build/index.js",
     "build": "npm run clean && babel src --out-dir build && npm run copy",
+    "build:prod": "npm run clean && babel src --out-dir build && npm run copy:prod",
     "copy": "cpy \"./src/templates/*.json\" \"./build/templates\" && cpy \"./.env\" \"./build\"",
+    "copy:prod": "cpy \"./src/templates/*.json\" \"./build/templates\" && touch \"./build/.env\"",
     "clean": "rimraf build",
     "test": "npm test"
   },
